@@ -1,3 +1,4 @@
+package org.launchcode;
 public class Cat {
 
     private boolean tired = false;
@@ -9,6 +10,10 @@ public class Cat {
 
     public Cat (double aWeight) {
         weight = aWeight;
+    }
+
+    public Cat() {
+        weight = 13;
     }
 
     /**** Getters and Setters ****/
