@@ -28,4 +28,9 @@ public class MenuItem {
     public void setNew(boolean aNew) {
         isNew = aNew;
     }
+
+    public double getPrice() { return price; }
+    public String getDescription() { return description; }
+    public String getCategory() { return category; }
+    public boolean getNewItem() { return isNew; }
 }

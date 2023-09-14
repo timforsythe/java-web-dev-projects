@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class CountingCharacters {
     public static void main(String[] args) {
+        //File file = new File(/Users/tforsythe/Documents/Java_String_Practice.rtf);
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter a string: ");
         String str = scanner.nextLine().toLowerCase(Locale.ROOT).replaceAll("[^a-zA-Z]", "");
